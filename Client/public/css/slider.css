@@ -1,0 +1,173 @@
+
+.contener_slideshow
+{
+  width:850px;
+  height:611px;
+  overflow: hidden;
+  position: relative;
+  
+
+}
+
+  
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:850px;
+  height:611px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 850px;}
+.slid_3{left: 1820px;}
+.contener_slide
+{
+  width: 1820px;
+  height: 611px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 10s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 10s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-850px;}
+  45% {left:-850px;}
+  66% {left:-1820px;}
+  90% {left:-1820px;}
+}
+@-moz-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-850px;}
+  45% {left:-850px;}
+  66% {left:-1820px;}
+  90% {left:-1820px;}
+}
+@-ms-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-850px;}
+  45% {left:-850px;}
+  66% {left:-1820px;}
+  90% {left:-1820px;}
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-850px;}
+  45% {left:-850px;}
+  66% {left:-1820px;}
+  90% {left:-1820px;}
+}
+
+
+
+
+.im{
+
+    width: 850px;
+    height: 611px;
+}
+
+@media screen and (max-width:900px) {  
+  
+
+.im{
+
+  width: 500px;
+  height: 311px;
+}
+.contener_slideshow
+{
+  width:500px;
+  height:311px;
+  overflow: hidden;
+  position: relative;
+  
+
+}
+
+  
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:500px;
+  height:311px;
+}
+.slid_1{left: 400;}
+.slid_2{left: 500px;}
+.slid_3{left: 810px;}
+.contener_slide
+{
+  width: 820px;
+  height: 311px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 10s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 10s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 10s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-500px;}
+  45% {left:-500px;}
+  66% {left:-820px;}
+  90% {left:-820px;}
+}
+@-moz-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-500px;}
+  45% {left:-500px;}
+  66% {left:-820px;}
+  90% {left:-820px;}
+}
+@-ms-keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-500px;}
+  45% {left:-500px;}
+  66% {left:-820px;}
+  90% {left:-820px;}
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}
+  22% {left:0px;}
+  33% {left:-500px;}
+  45% {left:-500px;}
+  66% {left:-820px;}
+  90% {left:-820px;}
+}
+
+
+  
+}
